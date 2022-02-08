@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Part1
+comment0.text=\n\ Write\ a\ description\ of\ Part1\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=dna\ startIndex\ stopCodon
+comment1.target=int\ findStopCodon(java.lang.String,\ int,\ java.lang.String)
+comment2.params=dna
+comment2.target=java.lang.String\ findGene(java.lang.String)
+comment3.params=dna
+comment3.target=edu.duke.StorageResource\ getAllGenes(java.lang.String)
+comment3.text=public\ void\ testFindGene()\ {\n\ \ \ \ \ \ \ \ System.out.println("Testing\ ATGAAGAAGTAAAAT");\n\ \ \ \ \ \ \ \ System.out.println(findGene("ATGAAGAAGTAAAAT"));\n\ \ \ \ \ \ \ \ System.out.println("Testing\ ATGAAGAAGAAGTAGTAA");\n\ \ \ \ \ \ \ \ System.out.println(findGene("ATGAAGAAGAAGTAGTAA"));\n\ \ \ \ \ \ \ \ System.out.println("Testing\ ATGAAGAAGAATAGATAA");\n\ \ \ \ \ \ \ \ System.out.println(findGene("ATGAAGAAGAATAGATAA"));\n\ \ \ \ \ \ \ \ System.out.println("Testing\ ");\n\ \ \ \ \ \ \ \ System.out.println(findGene(""));\n\ \ \ \ \ \ \ \ System.out.println("Testing\ ATGAAGAAGTAATAGTGA");\n\ \ \ \ \ \ \ \ System.out.println(findGene("ATGAAGAAGTAATAGTGA"));\n\ \ \ \ \ \ \ \ System.out.println("Testing\ ATGAAGAAGTAAATGAAGAAGTAATATATAATGAAGAAGTAGAAAATGTAAAAGATGATTATTATTGATGAATGA");\n\ \ \ \ \ \ \ \ getAllGenes("ATGAAGAAGTAAATGAAGAAGTAATATATAATGAAGAAGTAGAAAATGTAAAAGATGATTATTATTGATGAATGA");\n}
+comment4.params=dna
+comment4.target=double\ cgRatio(java.lang.String)
+comment5.params=sr
+comment5.target=void\ processGenes(edu.duke.StorageResource)
+comment6.params=codon\ dna
+comment6.target=int\ countCodon(java.lang.String,\ java.lang.String)
+comment7.params=
+comment7.target=void\ testProcessGenes()
+comment8.params=
+comment8.target=void\ test()
+numComments=9
